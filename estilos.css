@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+    padding: 32px;
+
+}
+main{
+    background-color:white;
+}
+footer{
+    background-color: black;
+}
+.link{
+    text-decoration: none;
+    box-shadow: none;
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+
+
+}
+
+.link2{
+    text-decoration: none;
+    box-shadow: none;
+    font-size: large;
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+}
+
+.link3{
+    text-decoration: none;
+    box-shadow: none;
+    font-size: large;
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+}
+
+.link4{
+    text-decoration: none;
+    box-shadow: none;
+    font-size: large;
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+}
+
+.logo{
+    color: white;
+    font-weight: 100px;  
+}
+
+.parrafo{
+font-size: large;
+width: 500px;
+font-family: sans-serif;
+font-weight: bold;
+text-align: justify;
+color: white;
+}
+
+.image{
+    background-image: url(./imagenes/imagen6.jpg);
+}
+
+.logo2{
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.imagen1{
+    width: 350px;
+    height: 250px;
+}
+
+.imagen2{
+    width: 350px;
+    height: 250px;
+}
+
+.imagen3{
+    width: 350px;
+    height: 250px;
+}
+
+footer{
+    text-align: center;
+}
+
+.mo{
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+    font-family: serif;
+}
+
+.mo2{
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+    font-family: serif; 
+}
+
+.mo3{
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+    font-family: serif;
+}
+
+.mo4{
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+    font-family: serif;
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+      background-color: #f0f0f0;
+    }
+  
+    .main-section {
+      background-color: #f9f9f9;
+    }
+  
+    footer {
+      background-color: #e0e0e0;
+    }
+  }
+
+  .link:hover{
+    transition: color 0.3s ease
+}
